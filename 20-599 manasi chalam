@@ -18,7 +18,7 @@ TabbedPaneExample(){
 	label.setBounds(50, 50, 200, 60);
 	p1.add(label);
 	p1.setLayout(null);
-	JTextField field=new JTextField("enter your first name");
+	JTextField field=new JTextField("");
 	p1.add(field);
 	field.setBounds(180, 50, 200, 30);
 	
@@ -26,7 +26,7 @@ TabbedPaneExample(){
 	labe1l.setBounds(30, 50, 200 , 120);
 	p1.add(labe1l);
 	p1.setLayout(null);
-	JTextField field1=new JTextField("enter your last name");
+	JTextField field1=new JTextField("");
 	p1.add(field1);
 	field1.setBounds(180, 90, 250, 70);
 	
@@ -34,7 +34,7 @@ TabbedPaneExample(){
 	label3.setBounds(60, 100, 200 , 200);
 	p1.add(label3);
 	p1.setLayout(null);
-	JTextField field2=new JTextField("enter mail");
+	JTextField field2=new JTextField("");
 	p1.add(field2);
 	field2.setBounds(180, 200, 300, 50);
 	
@@ -42,7 +42,7 @@ TabbedPaneExample(){
 	label4.setBounds(60, 180, 200 , 250);
 	p1.add(label4);
 	p1.setLayout(null);
-	JTextField field3=new JTextField("enter roll no");
+	JTextField field3=new JTextField("");
 	p1.add(field3);
 	field3.setBounds(180, 270, 350, 60);
 	
@@ -50,7 +50,7 @@ TabbedPaneExample(){
 	label5.setBounds(60, 200, 300 , 350);
 	p1.add(label5);
 	p1.setLayout(null);
-	JTextField field4=new JTextField("enter address");
+	JTextField field4=new JTextField("");
 	p1.add(field4);
 	field4.setBounds(180, 350, 300, 70);
 	
@@ -59,7 +59,7 @@ TabbedPaneExample(){
 	label6.setBounds(60, 300, 350 , 400);
 	p1.add(label6);
 	p1.setLayout(null);
-	JTextField field5=new JTextField("enter gender");
+	JTextField field5=new JTextField("");
 	p1.add(field5);
 	field5.setBounds(180, 450, 300, 90);
 	JButton b=new JButton("SUBMIT");  
@@ -75,7 +75,7 @@ TabbedPaneExample(){
 	label9.setBounds(50, 50, 200, 60);
 	p2.add(label9);
 	p2.setLayout(null);
-	JTextField field9=new JTextField("enter mail");
+	JTextField field9=new JTextField("");
 	p2.add(field9);
 	field9.setBounds(180, 50, 200, 30);
 	
@@ -83,7 +83,7 @@ TabbedPaneExample(){
 	label0.setBounds(30, 50, 200 , 120);
 	p2.add(label0);
 	p2.setLayout(null);
-	JTextField field0=new JTextField("enter password");
+	JTextField field0=new JTextField("");
 	p2.add(field0);
 	field0.setBounds(180, 90, 250, 70);
 	JButton b2=new JButton("LOGIN");  
@@ -95,7 +95,7 @@ TabbedPaneExample(){
 	label11.setBounds(30, 50, 200 , 120);
 	p3.add(label11);
 	p3.setLayout(null);
-	JTextField field11=new JTextField("ENTER YOUR NAME HERE");
+	JTextField field11=new JTextField("");
 	field11.setBounds(180, 90, 250, 70);
 	p3.add(field11);
 	JButton b3=new JButton("SEARCH");  
